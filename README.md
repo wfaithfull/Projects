@@ -27,17 +27,17 @@ If *Projects* has helped you in any way, and you'd like to help the developer, p
 Numbers
 ---------
 
-**Find PI to the Nth Digit** - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go. ![](http://python.net.ua/static/img/favicon.png)
+**Find PI to the Nth Digit** - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go. ![](http://wfaithfull.github.io/images/icons/python.png)
 
 **Find e to the Nth Digit** - Just like the previous problem, but with e instead of PI. Enter a number and have the program generate e up to that many decimal places. Keep a limit to how far the program will go.
 
-**Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number. ![](http://python.net.ua/static/img/favicon.png)
+**Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number. ![](http://wfaithfull.github.io/images/icons/python.png)
 
 **Prime Factorization** - Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
 **Next Prime Number** - Have the program find prime numbers until the user chooses to stop asking for the next one.
 
-**Find Cost of Tile to Cover W x H Floor** - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user. ![](http://python.net.ua/static/img/favicon.png)
+**Find Cost of Tile to Cover W x H Floor** - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user. ![](http://wfaithfull.github.io/images/icons/python.png)
 
 **Mortgage Calculator** - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan. For added complexity, add an option for users to select the compounding interval (Monthly, Weekly, Daily, Continually).
 
@@ -57,7 +57,7 @@ Numbers
 
 **Tax Calculator** - Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.
 
-**Factorial Finder** - The Factorial of a positive integer, n, is defined as the product of the sequence n, n-1, n-2, ...1 and the factorial of zero, 0, is defined as being 1. Solve this using both loops and recursion. ![](http://python.net.ua/static/img/favicon.png)
+**Factorial Finder** - The Factorial of a positive integer, n, is defined as the product of the sequence n, n-1, n-2, ...1 and the factorial of zero, 0, is defined as being 1. Solve this using both loops and recursion. ![](http://wfaithfull.github.io/images/icons/python.png)
 
 **Complex Number Algebra** - Show addition, multiplication, negation, and inversion of complex numbers in separate functions. (Subtraction and division operations can be made with pairs of these operations.) Print the results for each operation tested.
 
@@ -104,17 +104,17 @@ Data Structures
 Text
 ---------
 
-**Fizz Buzz** - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”. ![](http://python.net.ua/static/img/favicon.png)
+**Fizz Buzz** - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”. ![](http://wfaithfull.github.io/images/icons/python.png)
 
-**Reverse a String** - Enter a string and the program will reverse it and print it out. ![](http://python.net.ua/static/img/favicon.png)
+**Reverse a String** - Enter a string and the program will reverse it and print it out. ![](http://wfaithfull.github.io/images/icons/python.png)
 
 **Pig Latin** - Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Read Wikipedia for more information on rules.
 
-**Count Vowels** - Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found. ![](http://python.net.ua/static/img/favicon.png)
+**Count Vowels** - Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found. ![](http://wfaithfull.github.io/images/icons/python.png)
 
-**Check if Palindrome** - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar” ![](http://python.net.ua/static/img/favicon.png)
+**Check if Palindrome** - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar” ![](http://wfaithfull.github.io/images/icons/python.png)
 
-**Count Words in a String** - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary. ![](http://python.net.ua/static/img/favicon.png)
+**Count Words in a String** - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary. ![](http://wfaithfull.github.io/images/icons/python.png)
 
 **Text Editor** - Notepad style application that can open, edit, and save text documents. *Optional: Add syntax highlighting and other features.*
 
