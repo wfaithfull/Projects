@@ -1,10 +1,10 @@
 def words(s):
     return len(str(s).split())
 
-if __name__ == '__main__':
-    import sys, os.path
-    if len(sys.argv) >= 1:
-        input = sys.argv[1]
+def main(args):
+    import os.path
+    if len(args) >= 1:
+        input = args[1]
     else:
         sys.exit()
 
@@ -14,3 +14,7 @@ if __name__ == '__main__':
             data = f.readlines()
 
     print words(data)
+
+if __name__ == '__main__':
+    import sys
+    main(sys.argv)

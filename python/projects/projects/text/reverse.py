@@ -4,6 +4,10 @@ def reverse(s):
         rev += s[i]
     return rev
 
+def main(args):
+    print reverse(args[1])
+
 if __name__ == '__main__':
     import sys
-    print reverse(sys.argv[1])
+    main(sys.argv)
+    

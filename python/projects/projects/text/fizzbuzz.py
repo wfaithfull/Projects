@@ -11,11 +11,15 @@ def fizzbuzz(n):
     else:
         return str(n)
 
-if __name__ == '__main__':
-    import sys
-    if len(sys.argv) >= 2:
+def main(args):
+    if len(args) >= 2:
         target = int(sys.argv[1])
     else:
         target = 100
 
     print '\n'.join([fizzbuzz(n) for n in range(1,target+1)])
+
+if __name__ == '__main__':
+    import sys
+    main(sys.argv)
+    

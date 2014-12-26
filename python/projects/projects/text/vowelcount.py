@@ -14,9 +14,13 @@ def vowelcountplus(s):
         counts[v] = s.count(v)
     return counts
 
-if __name__ == '__main__':
-    import sys
-    word = sys.argv[1]
+def main(args):
+    word = args[1]
     print vowelcount(word)
     for vowel, count in vowelcountplus(word).iteritems():
         print '%s %s] %d' % (vowel, '=' * count, count)
+
+if __name__ == '__main__':
+    import sys
+    main(sys.argv)
+    
