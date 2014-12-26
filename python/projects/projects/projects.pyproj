@@ -22,12 +22,26 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="graphics\turtles.py" />
+    <Compile Include="graphics\__init__.py" />
+    <Compile Include="number\factorial.py" />
     <Compile Include="number\fib.py" />
     <Compile Include="number\pi2n.py" />
+    <Compile Include="number\tiles.py" />
     <Compile Include="number\__init__.py" />
     <Compile Include="projects.py" />
+    <Compile Include="text\fizzbuzz.py" />
+    <Compile Include="text\palindrome.py" />
+    <Compile Include="text\reverse.py" />
+    <Compile Include="test_text.py" />
+    <Compile Include="text\vowelcount.py" />
+    <Compile Include="text\wordcount.py" />
+    <Compile Include="text\__init__.py" />
+    <Compile Include="__init__.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="graphics\" />
+    <Folder Include="text\" />
     <Folder Include="number\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />

@@ -13,7 +13,7 @@ def fizzbuzz(n):
 
 def main(args):
     if len(args) >= 2:
-        target = int(sys.argv[1])
+        target = int(args)
     else:
         target = 100
 
