@@ -1,9 +1,8 @@
 def vowelcount(s):
     dict = 'aeiouy'
     count = 0
-    for i in range(0,len(s)):
-        if s[i] in dict:
-            count += 1
+    for v in dict:
+        count += s.count(v)
     return count
 
 def vowelcountplus(s):
@@ -16,7 +15,7 @@ def vowelcountplus(s):
 
 def main(args):
     word = args[1]
-    print vowelcount(word)
+    print 'Total: %d vowels' % vowelcount(word)
     for vowel, count in vowelcountplus(word).iteritems():
         print '%s %s] %d' % (vowel, '=' * count, count)
 
