@@ -35,6 +35,8 @@
     <Compile Include="number\tiles.py" />
     <Compile Include="number\__init__.py" />
     <Compile Include="projects.py" />
+    <Compile Include="security\ciphers.py" />
+    <Compile Include="security\__init__.py" />
     <Compile Include="text\fizzbuzz.py" />
     <Compile Include="text\palindrome.py" />
     <Compile Include="text\reverse.py" />
@@ -47,6 +49,7 @@
   <ItemGroup>
     <Folder Include="algorithms\" />
     <Folder Include="graphics\" />
+    <Folder Include="security\" />
     <Folder Include="text\" />
     <Folder Include="number\" />
   </ItemGroup>
