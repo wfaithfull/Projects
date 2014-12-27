@@ -22,6 +22,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="algorithms\collatz.py" />
+    <Compile Include="algorithms\eratosthenes.py" />
+    <Compile Include="algorithms\primefac.py" />
+    <Compile Include="algorithms\sort.py" />
+    <Compile Include="algorithms\__init__.py" />
     <Compile Include="graphics\turtles.py" />
     <Compile Include="graphics\__init__.py" />
     <Compile Include="number\factorial.py" />
@@ -40,6 +45,7 @@
     <Compile Include="__init__.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="algorithms\" />
     <Folder Include="graphics\" />
     <Folder Include="text\" />
     <Folder Include="number\" />
