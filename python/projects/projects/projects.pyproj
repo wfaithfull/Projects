@@ -12,6 +12,8 @@
     <OutputPath>.</OutputPath>
     <Name>projects</Name>
     <RootNamespace>projects</RootNamespace>
+    <InterpreterId>{32c8a09e-d01a-4e24-839a-1484e1d6b205}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -29,6 +31,8 @@
     <Compile Include="algorithms\__init__.py" />
     <Compile Include="graphics\turtles.py" />
     <Compile Include="graphics\__init__.py" />
+    <Compile Include="graph\makegraph.py" />
+    <Compile Include="graph\__init__.py" />
     <Compile Include="number\factorial.py" />
     <Compile Include="number\fib.py" />
     <Compile Include="number\pi2n.py" />
@@ -39,6 +43,7 @@
     <Compile Include="security\__init__.py" />
     <Compile Include="text\fizzbuzz.py" />
     <Compile Include="text\palindrome.py" />
+    <Compile Include="text\pig.py" />
     <Compile Include="text\reverse.py" />
     <Compile Include="test_text.py" />
     <Compile Include="text\vowelcount.py" />
@@ -49,9 +54,22 @@
   <ItemGroup>
     <Folder Include="algorithms\" />
     <Folder Include="graphics\" />
+    <Folder Include="graph\" />
     <Folder Include="security\" />
     <Folder Include="text\" />
     <Folder Include="number\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="graphs\">
+      <Id>{32c8a09e-d01a-4e24-839a-1484e1d6b205}</Id>
+      <BaseInterpreter>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</BaseInterpreter>
+      <Version>2.7</Version>
+      <Description>graphs (Python 2.7)</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <LibraryPath>Lib\</LibraryPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+    </Interpreter>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
