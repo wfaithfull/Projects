@@ -71,14 +71,14 @@ Numbers
 
 **Fast Exponentiation** - Ask the user to enter 2 integers a and b and output a^b (i.e. pow(a,b)) in O(lg n) time complexity.
 
-Classic Algorithms
+Classic Algorithms ![](http://wfaithfull.github.io/images/icons/python.png)
 -----------------
 
 **Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1. ![](http://wfaithfull.github.io/images/icons/python.png)
 
 **Sorting** - Implement two types of sorting algorithms: Merge sort and bubble sort. ![](http://wfaithfull.github.io/images/icons/python.png)
 
-**Closest pair problem** - The closest pair of points problem or closest pair problem is a problem of computational geometry: given *n* points in metric space, find a pair of points with the smallest distance between them.
+**Closest pair problem** - The closest pair of points problem or closest pair problem is a problem of computational geometry: given *n* points in metric space, find a pair of points with the smallest distance between them. ![](http://wfaithfull.github.io/images/icons/python.png)
 
 **Sieve of Eratosthenes** - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so). ![](http://wfaithfull.github.io/images/icons/python.png)
 
@@ -252,7 +252,7 @@ Graphics and Multimedia
 **GIF Creator** A program that puts together multiple images (PNGs, JPGs, TIFFs) to make a smooth GIF that can be exported. *Optional: Make the program convert small video files to GIFs as well.*
 
 
-Security
+Security ![](http://wfaithfull.github.io/images/icons/python.png)
 -------------
 
 **Caesar cipher** - Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys. ![](http://wfaithfull.github.io/images/icons/python.png)
